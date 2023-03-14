@@ -19,7 +19,7 @@ public class IncomeTaxCalculationAustria {
 
 
         Beispiel:
-        Montatsgehalt = 2900€
+        Monatsgehalt = 2900€
         Jahresgehalt = Monatsgehalt * 14 = 40.600€
         Jahresgehalt - SV = 40.600 - (40.600 * 18,12) = 40.600 - 7.356,72 = 33.243,28€
 
@@ -85,7 +85,7 @@ public class IncomeTaxCalculationAustria {
 
         //Gehalt < class1Min
         if (yearlyIncome > class0Min && yearlyIncome < class1Min) {
-            completeTaxAmount = 0;
+            completeTaxAmount = (yearlyIncome - class0Min) * class0Percent;
         }
 
         //Gehalt < class2Min
