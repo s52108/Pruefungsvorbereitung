@@ -66,7 +66,7 @@ public class IncomeTaxCalculationAustria {
         double yearlyIncomeBeforeSV = monthlyIncome * 14;
 
 
-        System.out.println("\nJahresabrechnung Pro 7.0 für €\n");
+
 
 
         double yearlyIncome = yearlyIncomeBeforeSV * (1 - socialSecurityPercent);
