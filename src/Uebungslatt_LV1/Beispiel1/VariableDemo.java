@@ -1,4 +1,4 @@
-package Uebungslatt_LV1;
+package Uebungslatt_LV1.Beispiel1;
 
 public class VariableDemo {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Uebungslatt_LV1;
+package Uebungslatt_LV1.Beispiel2;
 
 public class RechteckDemoFehler extends Exception {
 
