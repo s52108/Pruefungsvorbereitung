@@ -1,4 +1,4 @@
-package Uebungslatt_LV1.Beispiel1;
+package Uebungsblatt_LV2.Beispiel1;
 
 public class PunkteKleinerNullException extends Exception{
     public PunkteKleinerNullException (int punkte){

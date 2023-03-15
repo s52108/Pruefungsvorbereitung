@@ -1,7 +1,5 @@
 package Uebungsblatt_LV2.Beispiel1;
 
-import Uebungslatt_LV1.Beispiel1.PunkteKleinerNullException;
-
 public class NotenDemo {
     public static void main(String[] args) throws PunkteKleinerNullException {
         int Punkte1 = -1;
