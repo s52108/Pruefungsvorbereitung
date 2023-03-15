@@ -65,12 +65,9 @@ public class IncomeTaxCalculationAustria {
         double completeTaxAmount = 0;
         double yearlyIncomeBeforeSV = monthlyIncome * 14;
 
-
-
-
-
         double yearlyIncome = yearlyIncomeBeforeSV * (1 - socialSecurityPercent);
 
+        //Gehalt < 0
         if (yearlyIncome < 0) {
             throw new IncomeBelowZero(monthlyIncome);
         }
@@ -78,10 +75,6 @@ public class IncomeTaxCalculationAustria {
         System.out.println("Einkommen pro Monat = " + df.format(monthlyIncome) + "€\n");
         System.out.println("Einkommen pro Jahr vor Abzug der SV Beiträge = " + df.format(yearlyIncomeBeforeSV) + "€");
         System.out.println("Einkommen pro Jahr abzüglich SV Beiträge = " + df.format(yearlyIncome) + "€\n");
-
-
-        //Gehalt < 0
-
 
         //Gehalt < class1Min
         if (yearlyIncome > class0Min && yearlyIncome < class1Min) {
