@@ -1,4 +1,4 @@
-package online.thirdLesson;
+package online.thirdLesson.Students;
 
 import java.util.ArrayList;
 import java.util.HashMap;

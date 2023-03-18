@@ -1,4 +1,4 @@
-package online.thirdLesson;
+package online.thirdLesson.Students;
 
 import online.thirdLesson.campus02.Student;
 
