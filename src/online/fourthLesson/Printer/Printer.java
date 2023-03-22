@@ -1,4 +1,4 @@
-package online.fourthLesson;
+package online.fourthLesson.Printer;
 
 public class Printer {
     public static void main(String[] args) {

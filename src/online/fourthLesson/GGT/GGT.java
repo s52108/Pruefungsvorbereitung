@@ -1,4 +1,4 @@
-package online.fourthLesson;
+package online.fourthLesson.GGT;
 
 public class GGT {
     public static void main(String[] args) {
